@@ -17,4 +17,5 @@ missing_percentage = {
     col: round((df[col].isnull() | (df[col] == '')).mean() * 100, 2) for col in columns_to_check
 }
 
-missing_percentage
+
+
