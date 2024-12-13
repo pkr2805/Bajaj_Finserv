@@ -22,4 +22,4 @@ df['ageGroup'] = df['age'].apply(categorize_age)
 
 # Count of 'Adult'
 adult_count = df['ageGroup'].value_counts().get('Adult', 0)
-adult_count
+
